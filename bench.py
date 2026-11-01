@@ -87,7 +87,6 @@ def start_server(apc: bool):
         "--max-model-len", "4096",
         "--max-num-seqs", "64",
         "--gpu-memory-utilization", "0.85",
-        "--disable-log-requests",
     ]
     if apc:
         args.append("--enable-prefix-caching")
@@ -96,7 +95,11 @@ def start_server(apc: bool):
     deadline = time.time() + 420
     while time.time() < deadline:
         if proc.poll() is not None:
-            raise RuntimeError(f"server exited rc={proc.returncode}; see server log")
+            try:
+                tail = open(f"/content/server_apc_{int(apc)}.log").read()[-3000:]
+            except Exception:
+                tail = "(no log)"
+            raise RuntimeError(f"server exited rc={proc.returncode}\n{tail}")
         try:
             r = httpx.get(f"{BASE}/health", timeout=2)
             if r.status_code == 200:
