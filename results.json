@@ -1,0 +1,2598 @@
+{
+  "meta": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "n_sessions": 24,
+    "max_tokens": 48,
+    "seed": 1234,
+    "started_utc": "2026-11-01T08:39:59.529378+00:00",
+    "vllm": "0.32.0",
+    "gpu": "Tesla T4, 15360 MiB",
+    "wall_s": 169.9195053577423
+  },
+  "prompt_meta": [
+    {
+      "layout": "prefix",
+      "session": 0,
+      "nonce": "SESSION-00-7110EDA4",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 0,
+      "nonce": "SESSION-00-7110EDA4",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 1,
+      "nonce": "SESSION-01-AC1AB23D",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 1,
+      "nonce": "SESSION-01-AC1AB23D",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 2,
+      "nonce": "SESSION-02-229BE39E",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 2,
+      "nonce": "SESSION-02-229BE39E",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 3,
+      "nonce": "SESSION-03-757578FB",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 3,
+      "nonce": "SESSION-03-757578FB",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 4,
+      "nonce": "SESSION-04-B5507C7C",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 4,
+      "nonce": "SESSION-04-B5507C7C",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 5,
+      "nonce": "SESSION-05-C60D81F3",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 5,
+      "nonce": "SESSION-05-C60D81F3",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 6,
+      "nonce": "SESSION-06-042338D4",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "middle",
+      "session": 6,
+      "nonce": "SESSION-06-042338D4",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "prefix",
+      "session": 7,
+      "nonce": "SESSION-07-435DDA8A",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 7,
+      "nonce": "SESSION-07-435DDA8A",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 8,
+      "nonce": "SESSION-08-BEEBBCFB",
+      "prompt_tokens": 1214,
+      "shared_tokens": 1094,
+      "private_tokens": 121
+    },
+    {
+      "layout": "middle",
+      "session": 8,
+      "nonce": "SESSION-08-BEEBBCFB",
+      "prompt_tokens": 1214,
+      "shared_tokens": 1094,
+      "private_tokens": 121
+    },
+    {
+      "layout": "prefix",
+      "session": 9,
+      "nonce": "SESSION-09-6FD599B6",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 9,
+      "nonce": "SESSION-09-6FD599B6",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 10,
+      "nonce": "SESSION-10-89CA91E6",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 10,
+      "nonce": "SESSION-10-89CA91E6",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 11,
+      "nonce": "SESSION-11-F350D780",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 11,
+      "nonce": "SESSION-11-F350D780",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 12,
+      "nonce": "SESSION-12-26CED0B5",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 12,
+      "nonce": "SESSION-12-26CED0B5",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 13,
+      "nonce": "SESSION-13-36DFF957",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 13,
+      "nonce": "SESSION-13-36DFF957",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 14,
+      "nonce": "SESSION-14-E114DE9E",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 14,
+      "nonce": "SESSION-14-E114DE9E",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 15,
+      "nonce": "SESSION-15-9D8682D3",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "middle",
+      "session": 15,
+      "nonce": "SESSION-15-9D8682D3",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "prefix",
+      "session": 16,
+      "nonce": "SESSION-16-67DE6A66",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 16,
+      "nonce": "SESSION-16-67DE6A66",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 17,
+      "nonce": "SESSION-17-8CE2F7CD",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 17,
+      "nonce": "SESSION-17-8CE2F7CD",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 18,
+      "nonce": "SESSION-18-F6D046A7",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 18,
+      "nonce": "SESSION-18-F6D046A7",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 19,
+      "nonce": "SESSION-19-2C614227",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "middle",
+      "session": 19,
+      "nonce": "SESSION-19-2C614227",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "prefix",
+      "session": 20,
+      "nonce": "SESSION-20-0D467C11",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "middle",
+      "session": 20,
+      "nonce": "SESSION-20-0D467C11",
+      "prompt_tokens": 1219,
+      "shared_tokens": 1094,
+      "private_tokens": 126
+    },
+    {
+      "layout": "prefix",
+      "session": 21,
+      "nonce": "SESSION-21-CC6F6EDE",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "middle",
+      "session": 21,
+      "nonce": "SESSION-21-CC6F6EDE",
+      "prompt_tokens": 1217,
+      "shared_tokens": 1094,
+      "private_tokens": 124
+    },
+    {
+      "layout": "prefix",
+      "session": 22,
+      "nonce": "SESSION-22-0735EC30",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 22,
+      "nonce": "SESSION-22-0735EC30",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "prefix",
+      "session": 23,
+      "nonce": "SESSION-23-E6602176",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    },
+    {
+      "layout": "middle",
+      "session": 23,
+      "nonce": "SESSION-23-E6602176",
+      "prompt_tokens": 1218,
+      "shared_tokens": 1094,
+      "private_tokens": 125
+    }
+  ],
+  "runs": [
+    {
+      "apc": false,
+      "layout": "prefix",
+      "concurrency": "sequential",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 7.915094473999943,
+        "throughput_tok_s": 144.7866483166387,
+        "ttft_p50_s": 0.04957796100006817,
+        "ttft_p95_s": 0.05217194199985897,
+        "latency_p50_s": 0.33092508550021194,
+        "latency_p95_s": 0.3329412850002882,
+        "output_tokens": 1146
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 17,
+        "total": 24,
+        "failures": [
+          {
+            "session": 3,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 4,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 6,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 7,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 8,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 9,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 22,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.02073782299976301,
+          "latency_s": 0.3012021760000607,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-00-7110EDA4\". Therefore, the second part of the sentence is: \"The first output of the private"
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.0481562820000363,
+          "latency_s": 0.33182780500010267,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-01-AC1AB23D\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.05217194199985897,
+          "latency_s": 0.3329412850002882,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 2 + 2 = 4. The first step is to identify the private session code provided: SESSION-02-229BE39E.\n\nNext, we need to perform the"
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.04760773899988635,
+          "latency_s": 0.3284028230000331,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.04841393500009872,
+          "latency_s": 0.32899281300024086,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.05101916200010237,
+          "latency_s": 0.3309023960000559,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-05-C60D81F3\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.04996236199986015,
+          "latency_s": 0.2957081989998187,
+          "output_tokens": 42,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product. In this case, 2 + 2 = 4. Therefore, the answer is 4."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.05112129500002993,
+          "latency_s": 0.33151086499992743,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.04609568100022443,
+          "latency_s": 0.3287128870001652,
+          "output_tokens": 48,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1"
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.04975266300016301,
+          "latency_s": 0.33163022000007913,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.04860186899986729,
+          "latency_s": 0.32990129400013757,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-10-89CA91E6\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.05194767800003319,
+          "latency_s": 0.33321981600010986,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-11-F350D780\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.04944122899996728,
+          "latency_s": 0.33111960899987025,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-12-26CED0B5\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.05116136500009816,
+          "latency_s": 0.330947775000368,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-13-36DFF957\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.04823074200021438,
+          "latency_s": 0.3297468650002884,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-14-E114DE9E\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.0549694169999384,
+          "latency_s": 0.3310275740000179,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-15-9D8682D3\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.04971469300016906,
+          "latency_s": 0.3323233030000665,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-16-67DE6A66\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.0486509119996299,
+          "latency_s": 0.3307154429999173,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-17-8CE2F7CD\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.049282392999884905,
+          "latency_s": 0.33061551799983135,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-18-F6D046A7\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.050177452999832894,
+          "latency_s": 0.331692696999653,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-19-2C614227\". The second part of the question asks for the sum of two numbers, which"
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.05053891099987595,
+          "latency_s": 0.33245910300001924,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-20-0D467C11\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.047287917000176094,
+          "latency_s": 0.32925915099986014,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-21-CC6F6EDE\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.0540908349998972,
+          "latency_s": 0.33848527200007084,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their total when written out without spaces. So, 2 + 2 = 14. \n\nTo break it down further:\n- 2 +"
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.04830782899989572,
+          "latency_s": 0.3301782160001494,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-23-E6602176\". The second output is \"2 + 2 = 4\". Therefore, the"
+        }
+      ],
+      "exact_match_vs_baseline": 1.0
+    },
+    {
+      "apc": false,
+      "layout": "prefix",
+      "concurrency": "concurrent",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 0.9808884789999865,
+        "throughput_tok_s": 1168.3285353380277,
+        "ttft_p50_s": 0.20059378799987826,
+        "ttft_p95_s": 0.2383167240000148,
+        "latency_p50_s": 0.9266674324999258,
+        "latency_p95_s": 0.9411372219997247,
+        "output_tokens": 1146
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 17,
+        "total": 24,
+        "failures": [
+          {
+            "session": 3,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 4,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 6,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 7,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 8,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 9,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 22,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.17326780899975347,
+          "latency_s": 0.9148174530000688,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-00-7110EDA4\". Therefore, the second part of the sentence is: \"The first output of the private"
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.2009440810002161,
+          "latency_s": 0.9244168949999221,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-01-AC1AB23D\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.20068893600000592,
+          "latency_s": 0.927075151000281,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 2 + 2 = 4. The first step is to identify the private session code provided: SESSION-02-229BE39E.\n\nNext, we need to perform the"
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.2004986399997506,
+          "latency_s": 0.9268044269997517,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.12898909199975606,
+          "latency_s": 0.8919547229997988,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1"
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.16826317300001392,
+          "latency_s": 0.9123466770001869,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-05-C60D81F3\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.1701054639997892,
+          "latency_s": 0.8155898420000085,
+          "output_tokens": 42,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product. In this case, 2 + 2 = 4. Therefore, the answer is 4."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.16996231200027978,
+          "latency_s": 0.911711964999995,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.23525442499976634,
+          "latency_s": 0.9402824149997286,
+          "output_tokens": 48,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1"
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.2382646860000932,
+          "latency_s": 0.9409194320001006,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.23848540400013007,
+          "latency_s": 0.9411372219997247,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-10-89CA91E6\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.23839548900014051,
+          "latency_s": 0.9414182220002658,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-11-F350D780\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.2383167240000148,
+          "latency_s": 0.9414064070001587,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-12-26CED0B5\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.19738036899980216,
+          "latency_s": 0.9235996869997507,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-13-36DFF957\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.19737178900004437,
+          "latency_s": 0.9243079249999937,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-14-E114DE9E\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.1973188389997631,
+          "latency_s": 0.9239612890000899,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-15-9D8682D3\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.1972965140002998,
+          "latency_s": 0.9265304380000998,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-16-67DE6A66\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.1971468490000916,
+          "latency_s": 0.9263152860003174,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-17-8CE2F7CD\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.19704860299998472,
+          "latency_s": 0.9261612200002673,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-18-F6D046A7\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.2201356810001016,
+          "latency_s": 0.9292999449999115,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-19-2C614227\". The second part of the question asks for the sum of two numbers, which"
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.22008106599969324,
+          "latency_s": 0.9291628109999692,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-20-0D467C11\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.21995719899996402,
+          "latency_s": 0.9289107340000555,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-21-CC6F6EDE\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.21972188200015808,
+          "latency_s": 0.9308423439997568,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their total when written out without spaces. So, 2 + 2 = 14. \n\nTo break it down further:\n- 2 +"
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.21894770700009758,
+          "latency_s": 0.9315820460001305,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-23-E6602176\". The second output is \"2 + 2 = 4\". Therefore, the"
+        }
+      ],
+      "exact_match_vs_baseline": 0.9583333333333334
+    },
+    {
+      "apc": false,
+      "layout": "middle",
+      "concurrency": "sequential",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 9.377719028000229,
+        "throughput_tok_s": 102.903488270301,
+        "ttft_p50_s": 0.15810888500004694,
+        "ttft_p95_s": 0.16392349699981423,
+        "latency_p50_s": 0.36898282949982786,
+        "latency_p95_s": 0.44593355599999995,
+        "output_tokens": 965
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 9,
+        "total": 24,
+        "failures": [
+          {
+            "session": 0,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 5,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 10,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 11,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 12,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 13,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 14,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 15,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 16,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 17,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 18,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 19,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 20,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 21,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 23,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.020050041000104102,
+          "latency_s": 0.23019301700014694,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.1596971349999876,
+          "latency_s": 0.44593355599999995,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. \n\nFirst output: Private session code: SESSION-01-AC1AB23D.\n\nSecond output: 2 + 2 = 4. \n\nSentence: The first output shows"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.17019805500012808,
+          "latency_s": 0.4581869909998204,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-02-229BE39E.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.16076102800025183,
+          "latency_s": 0.4427449469999374,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-03-757578FB.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.1576457420001134,
+          "latency_s": 0.44089672800009794,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-04-B5507C7C.\nAnswer: The first output shows that the private session code is SESSION-04-B5507C7C"
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.15877719600030105,
+          "latency_s": 0.3749605140001222,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.16601602699984142,
+          "latency_s": 0.4472106419998454,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nFirst output: Private session code: SESSION-06-042338D4.\n\nSecond output: 2 + 2 equals 4.\n\nSentence: The sum of two plus two is four."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.16234217000010176,
+          "latency_s": 0.439507661999869,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-07-435DDA8A.\nSecond output: 2 + 2 = 4\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.15714654000021255,
+          "latency_s": 0.41042756000024383,
+          "output_tokens": 43,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nFirst output: Private session code: SESSION-08-BEEBBCFB.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.1551218580002569,
+          "latency_s": 0.43701828200028103,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-09-6FD599B6.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.15237686299997222,
+          "latency_s": 0.3625979210000878,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.153564075000304,
+          "latency_s": 0.3646279490003508,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.15425395699958244,
+          "latency_s": 0.3643203509996056,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.15340425900012633,
+          "latency_s": 0.3642947470002582,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.1586268379996909,
+          "latency_s": 0.36780850100012685,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.15562243500016848,
+          "latency_s": 0.36605272299993885,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.1536637789999986,
+          "latency_s": 0.3644104730001345,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.15828558500015788,
+          "latency_s": 0.3683316139999988,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.15847999999959939,
+          "latency_s": 0.36913405599989346,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.15773236999984874,
+          "latency_s": 0.3685077739996814,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.15886013899989848,
+          "latency_s": 0.36883160299976225,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.16392349699981423,
+          "latency_s": 0.36968985300018176,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.1604829240000072,
+          "latency_s": 0.4442224360000182,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-22-0735EC30.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.157932184999936,
+          "latency_s": 0.3687677429998075,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        }
+      ],
+      "exact_match_vs_baseline": 0.0
+    },
+    {
+      "apc": false,
+      "layout": "middle",
+      "concurrency": "concurrent",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 0.9478474279999318,
+        "throughput_tok_s": 1018.0963428220322,
+        "ttft_p50_s": 0.2200831239999843,
+        "ttft_p95_s": 0.2876254319999134,
+        "latency_p50_s": 0.7911539015001381,
+        "latency_p95_s": 0.8787219340001684,
+        "output_tokens": 965
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 9,
+        "total": 24,
+        "failures": [
+          {
+            "session": 0,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 5,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 10,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 11,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 12,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 13,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 14,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 15,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 16,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 17,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 18,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 19,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 20,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 21,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 23,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.16218840100009402,
+          "latency_s": 0.7233986830001413,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.20792420399993716,
+          "latency_s": 0.869061839999631,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. \n\nFirst output: Private session code: SESSION-01-AC1AB23D.\n\nSecond output: 2 + 2 = 4. \n\nSentence: The first output shows"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.20783354400009557,
+          "latency_s": 0.8620980969999437,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-02-229BE39E.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.20775818099991739,
+          "latency_s": 0.87075540800015,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-03-757578FB.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.13182894399960787,
+          "latency_s": 0.8501017359999423,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-04-B5507C7C.\nAnswer: The first output shows that the private session code is SESSION-04-B5507C7C"
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.16002503899971998,
+          "latency_s": 0.719534394999755,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.1599697550000201,
+          "latency_s": 0.8608661139996912,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nFirst output: Private session code: SESSION-06-042338D4.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.15983907000008912,
+          "latency_s": 0.8536206029998539,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-07-435DDA8A.\nSecond output: 2 + 2 = 4\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.2880849609996403,
+          "latency_s": 0.8829242879996855,
+          "output_tokens": 43,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nFirst output: Private session code: SESSION-08-BEEBBCFB.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.2879045269996823,
+          "latency_s": 0.9098005480000211,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-09-6FD599B6.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.2876254319999134,
+          "latency_s": 0.8235306840001613,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.28747852699962095,
+          "latency_s": 0.823320147999766,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.20519934599997214,
+          "latency_s": 0.735786251999798,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.20512134499995227,
+          "latency_s": 0.7356935239999984,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.20507993199998964,
+          "latency_s": 0.7365871510000943,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.20500468799991722,
+          "latency_s": 0.7375205980001738,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.23314512600018134,
+          "latency_s": 0.7486231990001215,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.23294781899994632,
+          "latency_s": 0.7497352659997887,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.23271929099973931,
+          "latency_s": 0.7495165440000164,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.23255659899996317,
+          "latency_s": 0.7503663289999167,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.2324700889998894,
+          "latency_s": 0.7617199579999578,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.23230186499995398,
+          "latency_s": 0.7624877299999753,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.23224204400003146,
+          "latency_s": 0.8787219340001684,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-22-0735EC30.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.28368348799995147,
+          "latency_s": 0.8198200730003009,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        }
+      ],
+      "exact_match_vs_baseline": 0.0
+    },
+    {
+      "apc": true,
+      "layout": "prefix",
+      "concurrency": "sequential",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 8.073759963999692,
+        "throughput_tok_s": 141.94130183581512,
+        "ttft_p50_s": 0.05080289700003959,
+        "ttft_p95_s": 0.05757704799998464,
+        "latency_p50_s": 0.3340562509999927,
+        "latency_p95_s": 0.3421831770001518,
+        "output_tokens": 1146
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 17,
+        "total": 24,
+        "failures": [
+          {
+            "session": 3,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 4,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 6,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 7,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 8,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 9,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 22,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.025453226000081486,
+          "latency_s": 0.30767323300005955,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-00-7110EDA4\". Therefore, the second part of the sentence is: \"The first output of the private"
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.0509379820000504,
+          "latency_s": 0.33416907600030754,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-01-AC1AB23D\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.05757704799998464,
+          "latency_s": 0.33862311999973826,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 2 + 2 = 4. The first step is to identify the private session code provided: SESSION-02-229BE39E.\n\nNext, we need to perform the"
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.05066781200002879,
+          "latency_s": 0.33408046300019123,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.04920789200014042,
+          "latency_s": 0.3326823659999718,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.04956319600023562,
+          "latency_s": 0.3315810340000098,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-05-C60D81F3\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.0505552429999625,
+          "latency_s": 0.2982715250000183,
+          "output_tokens": 42,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product. In this case, 2 + 2 = 4. Therefore, the answer is 4."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.05394020899984753,
+          "latency_s": 0.33722389600006863,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.04635693300042476,
+          "latency_s": 0.3308289980000154,
+          "output_tokens": 48,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1"
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.05119709000018702,
+          "latency_s": 0.33410001600032047,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.048374169999988226,
+          "latency_s": 0.33245638999960647,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-10-89CA91E6\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.05136906299958355,
+          "latency_s": 0.3322764469999129,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-11-F350D780\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.048963668000396865,
+          "latency_s": 0.3325045750002573,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-12-26CED0B5\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.049602735999997094,
+          "latency_s": 0.33336247499983074,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-13-36DFF957\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.04951891600012459,
+          "latency_s": 0.3334004710000045,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-14-E114DE9E\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.05028447899985622,
+          "latency_s": 0.3332590810000511,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-15-9D8682D3\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.05140194999967207,
+          "latency_s": 0.33403203899979417,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-16-67DE6A66\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.04931964500019603,
+          "latency_s": 0.3343464889999268,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-17-8CE2F7CD\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.05218828900024164,
+          "latency_s": 0.33921784500034846,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-18-F6D046A7\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.056049747000088246,
+          "latency_s": 0.3421831770001518,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-19-2C614227\". The second part of the question asks for the sum of two numbers, which"
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.0730914980003945,
+          "latency_s": 0.3709740550002607,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-20-0D467C11\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.05307289399979709,
+          "latency_s": 0.34182203299997127,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-21-CC6F6EDE\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.05382792799991876,
+          "latency_s": 0.33847258000014335,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their total when written out without spaces. So, 2 + 2 = 14. \n\nTo break it down further:\n- 2 +"
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.06724077800026862,
+          "latency_s": 0.3572484880000957,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-23-E6602176\". The second output is \"2 + 2 = 4\". Therefore, the"
+        }
+      ],
+      "exact_match_vs_baseline": 1.0
+    },
+    {
+      "apc": true,
+      "layout": "prefix",
+      "concurrency": "concurrent",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 1.1599094110001715,
+        "throughput_tok_s": 988.0081919602862,
+        "ttft_p50_s": 0.3627037650001057,
+        "ttft_p95_s": 0.4016064100001131,
+        "latency_p50_s": 1.072973723000132,
+        "latency_p95_s": 1.084393911999996,
+        "output_tokens": 1146
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 17,
+        "total": 24,
+        "failures": [
+          {
+            "session": 3,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 4,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 6,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 7,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 8,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 9,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 22,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.1250550889999431,
+          "latency_s": 1.006550452999818,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-00-7110EDA4\". Therefore, the second part of the sentence is: \"The first output of the private"
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.2007506180002565,
+          "latency_s": 1.0353482580003401,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-01-AC1AB23D\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.2623242190002202,
+          "latency_s": 1.0535079290002614,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 2 + 2 = 4. The first step is to identify the private session code provided: SESSION-02-229BE39E.\n\nNext, we need to perform the"
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.3209558839998863,
+          "latency_s": 1.0550196989997858,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.3207061579996662,
+          "latency_s": 1.0646748609997303,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.32042037500013976,
+          "latency_s": 1.0643515759998081,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-05-C60D81F3\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.3201776079999945,
+          "latency_s": 0.968985574999806,
+          "output_tokens": 42,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product. In this case, 2 + 2 = 4. Therefore, the answer is 4."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.3199023510001098,
+          "latency_s": 1.0636129280001114,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.31963231700001415,
+          "latency_s": 1.0632846470002733,
+          "output_tokens": 48,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1"
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.31938940700001694,
+          "latency_s": 1.062945007000053,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 ="
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.363089697000305,
+          "latency_s": 1.073118230000091,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-10-89CA91E6\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.36286190600003465,
+          "latency_s": 1.072829216000173,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-11-F350D780\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.36254562400017676,
+          "latency_s": 1.0724473179998313,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-12-26CED0B5\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.36226635000002716,
+          "latency_s": 1.077841719999924,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-13-36DFF957\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.3650088239996876,
+          "latency_s": 1.0774874249996174,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-14-E114DE9E\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.4019675590002407,
+          "latency_s": 1.08525339300013,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-15-9D8682D3\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.4016064100001131,
+          "latency_s": 1.084765404999871,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-16-67DE6A66\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.4019271430001936,
+          "latency_s": 1.084393911999996,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-17-8CE2F7CD\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.3631914519996826,
+          "latency_s": 1.0755791009996756,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-18-F6D046A7\". The second output is \"2 + 2 = 4\". Therefore, the"
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.39436071399995853,
+          "latency_s": 1.0769292590002806,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-19-2C614227\". The second part of the question asks for the sum of two numbers, which"
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.39646638900012476,
+          "latency_s": 1.0748568760000126,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-20-0D467C11\". The second output is \"2 + 2 = 4\". Therefore,"
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.3960964689999855,
+          "latency_s": 1.0773950399998284,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-21-CC6F6EDE\". The second output is \"2 + 2 = 4\". Therefore, the answer"
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.39586749399995824,
+          "latency_s": 1.080361565000203,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nThe answer is 14. The sum of two numbers equals their total when written out without spaces. So, 2 + 2 = 14. \n\nTo break it down further:\n- 2 +"
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.39558574900001986,
+          "latency_s": 1.0795361890000095,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"SESSION-23-E6602176\". The second output is \"2 + 2 = 4\". Therefore, the"
+        }
+      ],
+      "exact_match_vs_baseline": 1.0
+    },
+    {
+      "apc": true,
+      "layout": "middle",
+      "concurrency": "sequential",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 9.416313507999803,
+        "throughput_tok_s": 102.4817195370743,
+        "ttft_p50_s": 0.15866474550011844,
+        "ttft_p95_s": 0.16097358100023484,
+        "latency_p50_s": 0.3745949674998883,
+        "latency_p95_s": 0.4437343280001187,
+        "output_tokens": 965
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 9,
+        "total": 24,
+        "failures": [
+          {
+            "session": 0,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 5,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 10,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 11,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 12,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 13,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 14,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 15,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 16,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 17,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 18,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 19,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 20,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 21,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 23,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.020031416000165336,
+          "latency_s": 0.2311043320000863,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.16018030400027783,
+          "latency_s": 0.44333326500009207,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. \n\nFirst output: Private session code: SESSION-01-AC1AB23D.\n\nSecond output: 2 + 2 = 4. \n\nSentence: The first output shows"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.1557342350001818,
+          "latency_s": 0.43513507599982404,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-02-229BE39E.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.15634670500003267,
+          "latency_s": 0.44229990399981034,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-03-757578FB.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.15450843200005693,
+          "latency_s": 0.44200509900019824,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-04-B5507C7C.\nAnswer: The first output shows that the private session code is SESSION-04-B5507C7C"
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.16635334000011426,
+          "latency_s": 0.3786529169997266,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.159624630000053,
+          "latency_s": 0.4445967159999782,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nFirst output: Private session code: SESSION-06-042338D4.\n\nSecond output: 2 + 2 equals 4.\n\nSentence: The sum of two plus two is four."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.15615737499956595,
+          "latency_s": 0.4351542189997417,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-07-435DDA8A.\nSecond output: 2 + 2 = 4\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.15895488700016358,
+          "latency_s": 0.4142699359999824,
+          "output_tokens": 43,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nFirst output: Private session code: SESSION-08-BEEBBCFB.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.15898648899974432,
+          "latency_s": 0.4437343280001187,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-09-6FD599B6.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.15799718900007065,
+          "latency_s": 0.3726933780003492,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.15774926799986133,
+          "latency_s": 0.37065218499992625,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.15655759300034333,
+          "latency_s": 0.36794409799995265,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.16062913899986597,
+          "latency_s": 0.3698591759998635,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.16097358100023484,
+          "latency_s": 0.3737282699999014,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.1571605770000133,
+          "latency_s": 0.36957656399999905,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.15972514499981116,
+          "latency_s": 0.37024918999986767,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.15966197399984594,
+          "latency_s": 0.3723924639998586,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.15518035499962934,
+          "latency_s": 0.36733426499995403,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.1583746040000733,
+          "latency_s": 0.3708005020002929,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.16056169500006945,
+          "latency_s": 0.3760822750000443,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.16294745000004696,
+          "latency_s": 0.3754616649998752,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.15907383000012487,
+          "latency_s": 0.4451650080000036,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-22-0735EC30.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.15709139000000505,
+          "latency_s": 0.3703894870000113,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        }
+      ],
+      "exact_match_vs_baseline": 0.0
+    },
+    {
+      "apc": true,
+      "layout": "middle",
+      "concurrency": "concurrent",
+      "aggregate": {
+        "n": 24,
+        "wall_s": 1.0276108660000318,
+        "throughput_tok_s": 940.0445557374732,
+        "ttft_p50_s": 0.19436191899990263,
+        "ttft_p95_s": 0.3539524530001472,
+        "latency_p50_s": 0.8710532900001908,
+        "latency_p95_s": 0.9920184290003817,
+        "output_tokens": 966
+      },
+      "isolation": {
+        "sessions_with_own_code_only": 9,
+        "total": 24,
+        "failures": [
+          {
+            "session": 0,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 5,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 10,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 11,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 12,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 13,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 14,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 15,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 16,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 17,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 18,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 19,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 20,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 21,
+            "own_nonce": false,
+            "foreign_nonces": []
+          },
+          {
+            "session": 23,
+            "own_nonce": false,
+            "foreign_nonces": []
+          }
+        ]
+      },
+      "requests": [
+        {
+          "session": 0,
+          "ttft_s": 0.3537163830001191,
+          "latency_s": 0.8891384439998546,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 1,
+          "ttft_s": 0.35343184100020153,
+          "latency_s": 0.9925446540000848,
+          "output_tokens": 48,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. \n\nFirst output: Private session code: SESSION-01-AC1AB23D.\n\nSecond output: 2 + 2 = 4. \n\nSentence: The first output shows"
+        },
+        {
+          "session": 2,
+          "ttft_s": 0.3532239880000816,
+          "latency_s": 0.9847679700001208,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-02-229BE39E.\n\nSecond output: 2 + 2 = 4\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 3,
+          "ttft_s": 0.3539524530001472,
+          "latency_s": 0.9920184290003817,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-03-757578FB.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 4,
+          "ttft_s": 0.3743898090001494,
+          "latency_s": 0.9951068390000728,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-04-B5507C7C.\nAnswer: The first output shows that the private session code is SESSION-04-B5507C7C"
+        },
+        {
+          "session": 5,
+          "ttft_s": 0.11113539999996647,
+          "latency_s": 0.7939822010002899,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 6,
+          "ttft_s": 0.1419565009996404,
+          "latency_s": 0.9479905589996633,
+          "output_tokens": 48,
+          "prompt_tokens": 1219,
+          "text": " 14\n\nFirst output: Private session code: SESSION-06-042338D4.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 7,
+          "ttft_s": 0.1419216599997526,
+          "latency_s": 0.9418671819998963,
+          "output_tokens": 47,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-07-435DDA8A.\nSecond output: 2 + 2 = 4\nAnswer: The sum of two numbers equals four."
+        },
+        {
+          "session": 8,
+          "ttft_s": 0.14188446200023463,
+          "latency_s": 0.9123745330002748,
+          "output_tokens": 44,
+          "prompt_tokens": 1214,
+          "text": " 14\n\nFirst output: Private session code: SESSION-08-BEEBBCFB.\n\nSecond output: 2 + 2 equals 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 9,
+          "ttft_s": 0.14183616599984816,
+          "latency_s": 0.9473503229996822,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-09-6FD599B6.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 10,
+          "ttft_s": 0.1667228139999679,
+          "latency_s": 0.8390325949999351,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 11,
+          "ttft_s": 0.16666060799980187,
+          "latency_s": 0.8389152179997836,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 12,
+          "ttft_s": 0.1665774349999083,
+          "latency_s": 0.8387192949999189,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 13,
+          "ttft_s": 0.16639144700002362,
+          "latency_s": 0.8384449780000978,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 14,
+          "ttft_s": 0.19195988199999192,
+          "latency_s": 0.8553037850001601,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 15,
+          "ttft_s": 0.19182472600004985,
+          "latency_s": 0.8551285460002873,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 16,
+          "ttft_s": 0.1916625759999988,
+          "latency_s": 0.8549037669999962,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 17,
+          "ttft_s": 0.19676395599981333,
+          "latency_s": 0.8547348480001347,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 18,
+          "ttft_s": 0.2430806119996305,
+          "latency_s": 0.8595224719997532,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 19,
+          "ttft_s": 0.24303184000018518,
+          "latency_s": 0.8593663579999884,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 20,
+          "ttft_s": 0.3014179930000864,
+          "latency_s": 0.8672571800002515,
+          "output_tokens": 36,
+          "prompt_tokens": 1219,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 21,
+          "ttft_s": 0.3013422320000245,
+          "latency_s": 0.8748494000001301,
+          "output_tokens": 36,
+          "prompt_tokens": 1217,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        },
+        {
+          "session": 22,
+          "ttft_s": 0.3011892810000063,
+          "latency_s": 0.9746253210000759,
+          "output_tokens": 48,
+          "prompt_tokens": 1218,
+          "text": " 14\n\nFirst output: Private session code: SESSION-22-0735EC30.\n\nSecond output: 2 + 2 = 4.\n\nAnswer: 2 + 2 equals 4."
+        },
+        {
+          "session": 23,
+          "ttft_s": 0.3648747990000629,
+          "latency_s": 0.8892327819999082,
+          "output_tokens": 36,
+          "prompt_tokens": 1218,
+          "text": " 2 + 2 = 4. The first output of the private session code is \"2 + 2 = 4\". Therefore, the answer is 4."
+        }
+      ],
+      "exact_match_vs_baseline": 0.0
+    }
+  ],
+  "baseline_text": {
+    "0": " 2 + 2 = 4. The first output of the private session code is \"SESSION-00-7110EDA4\". Therefore, the second part of the sentence is: \"The first output of the private",
+    "1": " 2 + 2 = 4. The first output of the private session code is \"SESSION-01-AC1AB23D\". The second output is \"2 + 2 = 4\". Therefore, the answer",
+    "2": " 14\n\nThe answer is 2 + 2 = 4. The first step is to identify the private session code provided: SESSION-02-229BE39E.\n\nNext, we need to perform the",
+    "3": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 =",
+    "4": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 =",
+    "5": " 2 + 2 = 4. The first output of the private session code is \"SESSION-05-C60D81F3\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "6": " 14\n\nThe answer is 14. The sum of two numbers equals their product. In this case, 2 + 2 = 4. Therefore, the answer is 4.",
+    "7": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 =",
+    "8": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. In this case, 2 + 2 = 4, which is not equal to 1",
+    "9": " 14\n\nThe answer is 14. The sum of two numbers equals their product when they are both positive or both negative. Since 2 and 2 are both positive, their product is \\(2 \\times 2 =",
+    "10": " 2 + 2 = 4. The first output of the private session code is \"SESSION-10-89CA91E6\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "11": " 2 + 2 = 4. The first output of the private session code is \"SESSION-11-F350D780\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "12": " 2 + 2 = 4. The first output of the private session code is \"SESSION-12-26CED0B5\". The second output is \"2 + 2 = 4\". Therefore, the answer",
+    "13": " 2 + 2 = 4. The first output of the private session code is \"SESSION-13-36DFF957\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "14": " 2 + 2 = 4. The first output of the private session code is \"SESSION-14-E114DE9E\". The second output is \"2 + 2 = 4\". Therefore, the answer",
+    "15": " 2 + 2 = 4. The first output of the private session code is \"SESSION-15-9D8682D3\". The second output is \"2 + 2 = 4\". Therefore,",
+    "16": " 2 + 2 = 4. The first output of the private session code is \"SESSION-16-67DE6A66\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "17": " 2 + 2 = 4. The first output of the private session code is \"SESSION-17-8CE2F7CD\". The second output is \"2 + 2 = 4\". Therefore, the answer",
+    "18": " 2 + 2 = 4. The first output of the private session code is \"SESSION-18-F6D046A7\". The second output is \"2 + 2 = 4\". Therefore, the",
+    "19": " 2 + 2 = 4. The first output of the private session code is \"SESSION-19-2C614227\". The second part of the question asks for the sum of two numbers, which",
+    "20": " 2 + 2 = 4. The first output of the private session code is \"SESSION-20-0D467C11\". The second output is \"2 + 2 = 4\". Therefore,",
+    "21": " 2 + 2 = 4. The first output of the private session code is \"SESSION-21-CC6F6EDE\". The second output is \"2 + 2 = 4\". Therefore, the answer",
+    "22": " 14\n\nThe answer is 14. The sum of two numbers equals their total when written out without spaces. So, 2 + 2 = 14. \n\nTo break it down further:\n- 2 +",
+    "23": " 2 + 2 = 4. The first output of the private session code is \"SESSION-23-E6602176\". The second output is \"2 + 2 = 4\". Therefore, the"
+  },
+  "gpu_peak_mib": {
+    "apc_0": 12773,
+    "apc_1": 12773
+  }
+}
