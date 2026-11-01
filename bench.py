@@ -187,6 +187,7 @@ async def one_request(client, prompt, idx, rec):
 
 async def run_concurrent(prompts, concurrency):
     rec = {}
+    t_wall = time.perf_counter()
     limits = httpx.Limits(max_connections=128, max_keepalive_connections=64)
     async with httpx.AsyncClient(limits=limits) as client:
         if concurrency == "sequential":
@@ -194,14 +195,13 @@ async def run_concurrent(prompts, concurrency):
                 await one_request(client, p, i, rec)
         else:
             await asyncio.gather(*[one_request(client, p, i, rec) for i, p in enumerate(prompts)])
-    return [rec[i] for i in range(len(prompts))]
+    return [rec[i] for i in range(len(prompts))], time.perf_counter() - t_wall
 
 
-def aggregate(rows):
+def aggregate(rows, wall):
     ttfts = [r["ttft_s"] for r in rows if r["ttft_s"] is not None]
     lats = [r["latency_s"] for r in rows]
     toks = sum(r["output_tokens"] or 0 for r in rows)
-    wall = max(lats)
     return {
         "n": len(rows),
         "wall_s": wall,
@@ -277,8 +277,8 @@ def main():
                             await one_request(ac, ps[0], 0, warm)
                     asyncio.run(_warm())
                 for conc in ("sequential", "concurrent"):
-                    rows = asyncio.run(run_concurrent(ps, conc))
-                    agg = aggregate(rows)
+                    rows, wall = asyncio.run(run_concurrent(ps, conc))
+                    agg = aggregate(rows, wall)
                     iso = isolation(rows, mt)
                     run = {
                         "apc": apc,
@@ -292,9 +292,9 @@ def main():
                     if layout == "prefix" and conc == "sequential":
                         results["baseline_text"] = {r["session"]: r["text"] for r in rows}
                     log(
-                        f"apc={apc} layout={layout} {conc}: "
-                        f"wall={agg['wall_s']:.2f}s tput={agg['throughput_tok_s']:.1f} tok/s "
-                        f"ttft_p50={agg['ttft_p50_s']} ttft_p95={agg['ttft_p95_s']} "
+                        f"RESULT apc={int(apc)} {layout} {conc} "
+                        f"wall={agg['wall_s']:.2f} tput={agg['throughput_tok_s']:.1f} "
+                        f"ttft50={agg['ttft_p50_s']:.3f} ttft95={agg['ttft_p95_s']:.3f} "
                         f"iso={iso['sessions_with_own_code_only']}/{iso['total']}"
                     )
         finally:
